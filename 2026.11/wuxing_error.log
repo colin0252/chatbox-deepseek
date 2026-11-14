@@ -202,3 +202,173 @@ Traceback (most recent call last):
 UnboundLocalError: cannot access local variable 'timezone_name' where it is not associated with a value
 
 ============================================================
+============================================================
+App 启动
+Python: 3.11.6 (main, Nov 13 2026, 13:31:14) [Clang 17.0.0 (clang-1700.0.13.5)]
+日志路径: /private/var/mobile/Containers/Data/Application/28682EC6-414C-460A-9270-8CFB440F67C8/Documents/wuxing_error.log
+============================================================
+App 启动
+Python: 3.11.6 (main, Nov 13 2026, 13:31:14) [Clang 17.0.0 (clang-1700.0.13.5)]
+日志路径: /private/var/mobile/Containers/Data/Application/4C626C9A-619C-4EA3-9FD6-73DFC115441C/Documents/wuxing_error.log
+============================================================
+App 启动
+Python: 3.11.6 (main, Nov 13 2026, 13:31:14) [Clang 17.0.0 (clang-1700.0.13.5)]
+日志路径: /private/var/mobile/Containers/Data/Application/4C626C9A-619C-4EA3-9FD6-73DFC115441C/Documents/wuxing_error.log
+============================================================
+App 启动
+Python: 3.11.6 (main, Nov 13 2026, 13:31:14) [Clang 17.0.0 (clang-1700.0.13.5)]
+日志路径: /private/var/mobile/Containers/Data/Application/74AA2203-A436-42DC-8B90-99755F9A5B0F/Documents/wuxing_error.log
+============================================================
+App 启动
+Python: 3.11.6 (main, Nov 13 2026, 13:31:14) [Clang 17.0.0 (clang-1700.0.13.5)]
+日志路径: /private/var/mobile/Containers/Data/Application/C777F509-508D-4422-99E4-3B7C4A9F4E1F/Documents/wuxing_error.log
+============================================================
+App 启动
+Python: 3.11.6 (main, Nov 13 2026, 13:31:14) [Clang 17.0.0 (clang-1700.0.13.5)]
+日志路径: /private/var/mobile/Containers/Data/Application/C777F509-508D-4422-99E4-3B7C4A9F4E1F/Documents/wuxing_error.log
+============================================================
+App 启动
+Python: 3.11.6 (main, Nov 13 2026, 13:31:14) [Clang 17.0.0 (clang-1700.0.13.5)]
+日志路径: /private/var/mobile/Containers/Data/Application/C777F509-508D-4422-99E4-3B7C4A9F4E1F/Documents/wuxing_error.log
+============================================================
+App 启动
+Python: 3.11.6 (main, Nov 13 2026, 13:31:14) [Clang 17.0.0 (clang-1700.0.13.5)]
+日志路径: /private/var/mobile/Containers/Data/Application/EEF21E4C-45CC-420E-89C8-A8EC9C24BE6E/Documents/wuxing_error.log
+============================================================
+App 启动
+Python: 3.11.6 (main, Nov 13 2026, 13:31:14) [Clang 17.0.0 (clang-1700.0.13.5)]
+日志路径: /private/var/mobile/Containers/Data/Application/EEF21E4C-45CC-420E-89C8-A8EC9C24BE6E/Documents/wuxing_error.log
+============================================================
+App 启动
+Python: 3.11.6 (main, Nov 13 2026, 13:31:14) [Clang 17.0.0 (clang-1700.0.13.5)]
+日志路径: /private/var/mobile/Containers/Data/Application/5307B750-D835-4E1F-9C4F-615F43E77BF4/Documents/wuxing_error.log
+============================================================
+App 启动
+Python: 3.11.6 (main, Nov 13 2026, 13:31:14) [Clang 17.0.0 (clang-1700.0.13.5)]
+日志路径: /private/var/mobile/Containers/Data/Application/01574DB1-F8A8-494C-8124-612A2568A7B1/Documents/wuxing_error.log
+App 运行异常退出：
+Traceback (most recent call last):
+  File "/Users/runner/work/_temp/kivy-ios/colin-app-ios/YourApp/main.py", line 86, in <module>
+  File "/private/var/containers/Bundle/Application/6D215AB1-B491-4AC0-8DA9-469327AF8177/colin-app.app/lib/python3.11/site-packages/kivy/app.py", line 956, in run
+    runTouchApp()
+  File "/private/var/containers/Bundle/Application/6D215AB1-B491-4AC0-8DA9-469327AF8177/colin-app.app/lib/python3.11/site-packages/kivy/base.py", line 574, in runTouchApp
+    EventLoop.mainloop()
+  File "/private/var/containers/Bundle/Application/6D215AB1-B491-4AC0-8DA9-469327AF8177/colin-app.app/lib/python3.11/site-packages/kivy/base.py", line 339, in mainloop
+    self.idle()
+  File "/private/var/containers/Bundle/Application/6D215AB1-B491-4AC0-8DA9-469327AF8177/colin-app.app/lib/python3.11/site-packages/kivy/base.py", line 383, in idle
+    self.dispatch_input()
+  File "/private/var/containers/Bundle/Application/6D215AB1-B491-4AC0-8DA9-469327AF8177/colin-app.app/lib/python3.11/site-packages/kivy/base.py", line 334, in dispatch_input
+    post_dispatch_input(*pop(0))
+  File "/private/var/containers/Bundle/Application/6D215AB1-B491-4AC0-8DA9-469327AF8177/colin-app.app/lib/python3.11/site-packages/kivy/base.py", line 302, in post_dispatch_input
+    wid.dispatch('on_touch_up', me)
+  File "kivy/_event.pyx", line 731, in kivy._event.EventDispatcher.dispatch
+  File "/private/var/containers/Bundle/Application/6D215AB1-B491-4AC0-8DA9-469327AF8177/colin-app.app/lib/python3.11/site-packages/kivy/uix/behaviors/button.py", line 179, in on_touch_up
+    self.dispatch('on_release')
+  File "kivy/_event.pyx", line 727, in kivy._event.EventDispatcher.dispatch
+  File "kivy/_event.pyx", line 1307, in kivy._event.EventObservers.dispatch
+  File "kivy/_event.pyx", line 1231, in kivy._event.EventObservers._dispatch
+  File "/Users/runner/work/_temp/kivy-ios/colin-app-ios/YourApp/wuxing/ui.py", line 3877, in <lambda>
+  File "/Users/runner/work/_temp/kivy-ios/colin-app-ios/YourApp/wuxing/ui.py", line 3894, in open_item
+  File "kivy/properties.pyx", line 520, in kivy.properties.Property.__set__
+  File "kivy/properties.pyx", line 564, in kivy.properties.Property.set
+  File "kivy/properties.pyx", line 555, in kivy.properties.Property.set
+  File "kivy/properties.pyx", line 797, in kivy.properties.StringProperty.check
+ValueError: ScreenManager.current accept only str
+
+App 退出
+============================================================
+未捕获异常：
+Traceback (most recent call last):
+  File "/Users/runner/work/_temp/kivy-ios/colin-app-ios/YourApp/main.py", line 86, in <module>
+  File "/private/var/containers/Bundle/Application/6D215AB1-B491-4AC0-8DA9-469327AF8177/colin-app.app/lib/python3.11/site-packages/kivy/app.py", line 956, in run
+    runTouchApp()
+  File "/private/var/containers/Bundle/Application/6D215AB1-B491-4AC0-8DA9-469327AF8177/colin-app.app/lib/python3.11/site-packages/kivy/base.py", line 574, in runTouchApp
+    EventLoop.mainloop()
+  File "/private/var/containers/Bundle/Application/6D215AB1-B491-4AC0-8DA9-469327AF8177/colin-app.app/lib/python3.11/site-packages/kivy/base.py", line 339, in mainloop
+    self.idle()
+  File "/private/var/containers/Bundle/Application/6D215AB1-B491-4AC0-8DA9-469327AF8177/colin-app.app/lib/python3.11/site-packages/kivy/base.py", line 383, in idle
+    self.dispatch_input()
+  File "/private/var/containers/Bundle/Application/6D215AB1-B491-4AC0-8DA9-469327AF8177/colin-app.app/lib/python3.11/site-packages/kivy/base.py", line 334, in dispatch_input
+    post_dispatch_input(*pop(0))
+  File "/private/var/containers/Bundle/Application/6D215AB1-B491-4AC0-8DA9-469327AF8177/colin-app.app/lib/python3.11/site-packages/kivy/base.py", line 302, in post_dispatch_input
+    wid.dispatch('on_touch_up', me)
+  File "kivy/_event.pyx", line 731, in kivy._event.EventDispatcher.dispatch
+  File "/private/var/containers/Bundle/Application/6D215AB1-B491-4AC0-8DA9-469327AF8177/colin-app.app/lib/python3.11/site-packages/kivy/uix/behaviors/button.py", line 179, in on_touch_up
+    self.dispatch('on_release')
+  File "kivy/_event.pyx", line 727, in kivy._event.EventDispatcher.dispatch
+  File "kivy/_event.pyx", line 1307, in kivy._event.EventObservers.dispatch
+  File "kivy/_event.pyx", line 1231, in kivy._event.EventObservers._dispatch
+  File "/Users/runner/work/_temp/kivy-ios/colin-app-ios/YourApp/wuxing/ui.py", line 3877, in <lambda>
+  File "/Users/runner/work/_temp/kivy-ios/colin-app-ios/YourApp/wuxing/ui.py", line 3894, in open_item
+  File "kivy/properties.pyx", line 520, in kivy.properties.Property.__set__
+  File "kivy/properties.pyx", line 564, in kivy.properties.Property.set
+  File "kivy/properties.pyx", line 555, in kivy.properties.Property.set
+  File "kivy/properties.pyx", line 797, in kivy.properties.StringProperty.check
+ValueError: ScreenManager.current accept only str
+
+============================================================
+============================================================
+App 启动
+Python: 3.11.6 (main, Nov 13 2026, 13:31:14) [Clang 17.0.0 (clang-1700.0.13.5)]
+日志路径: /private/var/mobile/Containers/Data/Application/01574DB1-F8A8-494C-8124-612A2568A7B1/Documents/wuxing_error.log
+App 运行异常退出：
+Traceback (most recent call last):
+  File "/Users/runner/work/_temp/kivy-ios/colin-app-ios/YourApp/main.py", line 86, in <module>
+  File "/private/var/containers/Bundle/Application/6D215AB1-B491-4AC0-8DA9-469327AF8177/colin-app.app/lib/python3.11/site-packages/kivy/app.py", line 956, in run
+    runTouchApp()
+  File "/private/var/containers/Bundle/Application/6D215AB1-B491-4AC0-8DA9-469327AF8177/colin-app.app/lib/python3.11/site-packages/kivy/base.py", line 574, in runTouchApp
+    EventLoop.mainloop()
+  File "/private/var/containers/Bundle/Application/6D215AB1-B491-4AC0-8DA9-469327AF8177/colin-app.app/lib/python3.11/site-packages/kivy/base.py", line 339, in mainloop
+    self.idle()
+  File "/private/var/containers/Bundle/Application/6D215AB1-B491-4AC0-8DA9-469327AF8177/colin-app.app/lib/python3.11/site-packages/kivy/base.py", line 383, in idle
+    self.dispatch_input()
+  File "/private/var/containers/Bundle/Application/6D215AB1-B491-4AC0-8DA9-469327AF8177/colin-app.app/lib/python3.11/site-packages/kivy/base.py", line 334, in dispatch_input
+    post_dispatch_input(*pop(0))
+  File "/private/var/containers/Bundle/Application/6D215AB1-B491-4AC0-8DA9-469327AF8177/colin-app.app/lib/python3.11/site-packages/kivy/base.py", line 302, in post_dispatch_input
+    wid.dispatch('on_touch_up', me)
+  File "kivy/_event.pyx", line 731, in kivy._event.EventDispatcher.dispatch
+  File "/private/var/containers/Bundle/Application/6D215AB1-B491-4AC0-8DA9-469327AF8177/colin-app.app/lib/python3.11/site-packages/kivy/uix/behaviors/button.py", line 179, in on_touch_up
+    self.dispatch('on_release')
+  File "kivy/_event.pyx", line 727, in kivy._event.EventDispatcher.dispatch
+  File "kivy/_event.pyx", line 1307, in kivy._event.EventObservers.dispatch
+  File "kivy/_event.pyx", line 1231, in kivy._event.EventObservers._dispatch
+  File "/Users/runner/work/_temp/kivy-ios/colin-app-ios/YourApp/wuxing/ui.py", line 3877, in <lambda>
+  File "/Users/runner/work/_temp/kivy-ios/colin-app-ios/YourApp/wuxing/ui.py", line 3894, in open_item
+  File "kivy/properties.pyx", line 520, in kivy.properties.Property.__set__
+  File "kivy/properties.pyx", line 564, in kivy.properties.Property.set
+  File "kivy/properties.pyx", line 555, in kivy.properties.Property.set
+  File "kivy/properties.pyx", line 797, in kivy.properties.StringProperty.check
+ValueError: ScreenManager.current accept only str
+
+App 退出
+============================================================
+未捕获异常：
+Traceback (most recent call last):
+  File "/Users/runner/work/_temp/kivy-ios/colin-app-ios/YourApp/main.py", line 86, in <module>
+  File "/private/var/containers/Bundle/Application/6D215AB1-B491-4AC0-8DA9-469327AF8177/colin-app.app/lib/python3.11/site-packages/kivy/app.py", line 956, in run
+    runTouchApp()
+  File "/private/var/containers/Bundle/Application/6D215AB1-B491-4AC0-8DA9-469327AF8177/colin-app.app/lib/python3.11/site-packages/kivy/base.py", line 574, in runTouchApp
+    EventLoop.mainloop()
+  File "/private/var/containers/Bundle/Application/6D215AB1-B491-4AC0-8DA9-469327AF8177/colin-app.app/lib/python3.11/site-packages/kivy/base.py", line 339, in mainloop
+    self.idle()
+  File "/private/var/containers/Bundle/Application/6D215AB1-B491-4AC0-8DA9-469327AF8177/colin-app.app/lib/python3.11/site-packages/kivy/base.py", line 383, in idle
+    self.dispatch_input()
+  File "/private/var/containers/Bundle/Application/6D215AB1-B491-4AC0-8DA9-469327AF8177/colin-app.app/lib/python3.11/site-packages/kivy/base.py", line 334, in dispatch_input
+    post_dispatch_input(*pop(0))
+  File "/private/var/containers/Bundle/Application/6D215AB1-B491-4AC0-8DA9-469327AF8177/colin-app.app/lib/python3.11/site-packages/kivy/base.py", line 302, in post_dispatch_input
+    wid.dispatch('on_touch_up', me)
+  File "kivy/_event.pyx", line 731, in kivy._event.EventDispatcher.dispatch
+  File "/private/var/containers/Bundle/Application/6D215AB1-B491-4AC0-8DA9-469327AF8177/colin-app.app/lib/python3.11/site-packages/kivy/uix/behaviors/button.py", line 179, in on_touch_up
+    self.dispatch('on_release')
+  File "kivy/_event.pyx", line 727, in kivy._event.EventDispatcher.dispatch
+  File "kivy/_event.pyx", line 1307, in kivy._event.EventObservers.dispatch
+  File "kivy/_event.pyx", line 1231, in kivy._event.EventObservers._dispatch
+  File "/Users/runner/work/_temp/kivy-ios/colin-app-ios/YourApp/wuxing/ui.py", line 3877, in <lambda>
+  File "/Users/runner/work/_temp/kivy-ios/colin-app-ios/YourApp/wuxing/ui.py", line 3894, in open_item
+  File "kivy/properties.pyx", line 520, in kivy.properties.Property.__set__
+  File "kivy/properties.pyx", line 564, in kivy.properties.Property.set
+  File "kivy/properties.pyx", line 555, in kivy.properties.Property.set
+  File "kivy/properties.pyx", line 797, in kivy.properties.StringProperty.check
+ValueError: ScreenManager.current accept only str
+
+============================================================
