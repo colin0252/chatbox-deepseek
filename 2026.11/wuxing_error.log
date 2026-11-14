@@ -1,0 +1,204 @@
+============================================================
+App 启动
+Python: 3.11.6 (main, Nov 14 2026, 02:46:38) [Clang 17.0.0 (clang-1700.0.13.5)]
+日志路径: /private/var/mobile/Containers/Data/Application/2539A624-830B-4731-B737-884247E00EE1/Documents/wuxing_error.log
+App 运行异常退出：
+Traceback (most recent call last):
+  File "/Users/runner/work/_temp/kivy-ios/colin-app-ios/YourApp/main.py", line 86, in <module>
+  File "/private/var/containers/Bundle/Application/C3E8A298-8273-4B70-BFAD-E1D56837ED76/colin-app.app/lib/python3.11/site-packages/kivy/app.py", line 956, in run
+    runTouchApp()
+  File "/private/var/containers/Bundle/Application/C3E8A298-8273-4B70-BFAD-E1D56837ED76/colin-app.app/lib/python3.11/site-packages/kivy/base.py", line 574, in runTouchApp
+    EventLoop.mainloop()
+  File "/private/var/containers/Bundle/Application/C3E8A298-8273-4B70-BFAD-E1D56837ED76/colin-app.app/lib/python3.11/site-packages/kivy/base.py", line 339, in mainloop
+    self.idle()
+  File "/private/var/containers/Bundle/Application/C3E8A298-8273-4B70-BFAD-E1D56837ED76/colin-app.app/lib/python3.11/site-packages/kivy/base.py", line 379, in idle
+    Clock.tick()
+  File "/private/var/containers/Bundle/Application/C3E8A298-8273-4B70-BFAD-E1D56837ED76/colin-app.app/lib/python3.11/site-packages/kivy/clock.py", line 733, in tick
+    self.post_idle(ts, self.idle())
+  File "/private/var/containers/Bundle/Application/C3E8A298-8273-4B70-BFAD-E1D56837ED76/colin-app.app/lib/python3.11/site-packages/kivy/clock.py", line 776, in post_idle
+    self._process_events()
+  File "kivy/_clock.pyx", line 620, in kivy._clock.CyClockBase._process_events
+  File "kivy/_clock.pyx", line 653, in kivy._clock.CyClockBase._process_events
+  File "kivy/_clock.pyx", line 649, in kivy._clock.CyClockBase._process_events
+  File "kivy/_clock.pyx", line 218, in kivy._clock.ClockEvent.tick
+  File "/Users/runner/work/_temp/kivy-ios/colin-app-ios/YourApp/wuxing/ui.py", line 683, in apply_result
+UnboundLocalError: cannot access local variable 'timezone_name' where it is not associated with a value
+
+App 退出
+============================================================
+未捕获异常：
+Traceback (most recent call last):
+  File "/Users/runner/work/_temp/kivy-ios/colin-app-ios/YourApp/main.py", line 86, in <module>
+  File "/private/var/containers/Bundle/Application/C3E8A298-8273-4B70-BFAD-E1D56837ED76/colin-app.app/lib/python3.11/site-packages/kivy/app.py", line 956, in run
+    runTouchApp()
+  File "/private/var/containers/Bundle/Application/C3E8A298-8273-4B70-BFAD-E1D56837ED76/colin-app.app/lib/python3.11/site-packages/kivy/base.py", line 574, in runTouchApp
+    EventLoop.mainloop()
+  File "/private/var/containers/Bundle/Application/C3E8A298-8273-4B70-BFAD-E1D56837ED76/colin-app.app/lib/python3.11/site-packages/kivy/base.py", line 339, in mainloop
+    self.idle()
+  File "/private/var/containers/Bundle/Application/C3E8A298-8273-4B70-BFAD-E1D56837ED76/colin-app.app/lib/python3.11/site-packages/kivy/base.py", line 379, in idle
+    Clock.tick()
+  File "/private/var/containers/Bundle/Application/C3E8A298-8273-4B70-BFAD-E1D56837ED76/colin-app.app/lib/python3.11/site-packages/kivy/clock.py", line 733, in tick
+    self.post_idle(ts, self.idle())
+  File "/private/var/containers/Bundle/Application/C3E8A298-8273-4B70-BFAD-E1D56837ED76/colin-app.app/lib/python3.11/site-packages/kivy/clock.py", line 776, in post_idle
+    self._process_events()
+  File "kivy/_clock.pyx", line 620, in kivy._clock.CyClockBase._process_events
+  File "kivy/_clock.pyx", line 653, in kivy._clock.CyClockBase._process_events
+  File "kivy/_clock.pyx", line 649, in kivy._clock.CyClockBase._process_events
+  File "kivy/_clock.pyx", line 218, in kivy._clock.ClockEvent.tick
+  File "/Users/runner/work/_temp/kivy-ios/colin-app-ios/YourApp/wuxing/ui.py", line 683, in apply_result
+UnboundLocalError: cannot access local variable 'timezone_name' where it is not associated with a value
+
+============================================================
+============================================================
+App 启动
+Python: 3.11.6 (main, Nov 14 2026, 02:46:38) [Clang 17.0.0 (clang-1700.0.13.5)]
+日志路径: /private/var/mobile/Containers/Data/Application/2539A624-830B-4731-B737-884247E00EE1/Documents/wuxing_error.log
+App 运行异常退出：
+Traceback (most recent call last):
+  File "/Users/runner/work/_temp/kivy-ios/colin-app-ios/YourApp/main.py", line 86, in <module>
+  File "/private/var/containers/Bundle/Application/C3E8A298-8273-4B70-BFAD-E1D56837ED76/colin-app.app/lib/python3.11/site-packages/kivy/app.py", line 956, in run
+    runTouchApp()
+  File "/private/var/containers/Bundle/Application/C3E8A298-8273-4B70-BFAD-E1D56837ED76/colin-app.app/lib/python3.11/site-packages/kivy/base.py", line 574, in runTouchApp
+    EventLoop.mainloop()
+  File "/private/var/containers/Bundle/Application/C3E8A298-8273-4B70-BFAD-E1D56837ED76/colin-app.app/lib/python3.11/site-packages/kivy/base.py", line 339, in mainloop
+    self.idle()
+  File "/private/var/containers/Bundle/Application/C3E8A298-8273-4B70-BFAD-E1D56837ED76/colin-app.app/lib/python3.11/site-packages/kivy/base.py", line 379, in idle
+    Clock.tick()
+  File "/private/var/containers/Bundle/Application/C3E8A298-8273-4B70-BFAD-E1D56837ED76/colin-app.app/lib/python3.11/site-packages/kivy/clock.py", line 733, in tick
+    self.post_idle(ts, self.idle())
+  File "/private/var/containers/Bundle/Application/C3E8A298-8273-4B70-BFAD-E1D56837ED76/colin-app.app/lib/python3.11/site-packages/kivy/clock.py", line 776, in post_idle
+    self._process_events()
+  File "kivy/_clock.pyx", line 620, in kivy._clock.CyClockBase._process_events
+  File "kivy/_clock.pyx", line 653, in kivy._clock.CyClockBase._process_events
+  File "kivy/_clock.pyx", line 649, in kivy._clock.CyClockBase._process_events
+  File "kivy/_clock.pyx", line 218, in kivy._clock.ClockEvent.tick
+  File "/Users/runner/work/_temp/kivy-ios/colin-app-ios/YourApp/wuxing/ui.py", line 683, in apply_result
+UnboundLocalError: cannot access local variable 'timezone_name' where it is not associated with a value
+
+App 退出
+============================================================
+未捕获异常：
+Traceback (most recent call last):
+  File "/Users/runner/work/_temp/kivy-ios/colin-app-ios/YourApp/main.py", line 86, in <module>
+  File "/private/var/containers/Bundle/Application/C3E8A298-8273-4B70-BFAD-E1D56837ED76/colin-app.app/lib/python3.11/site-packages/kivy/app.py", line 956, in run
+    runTouchApp()
+  File "/private/var/containers/Bundle/Application/C3E8A298-8273-4B70-BFAD-E1D56837ED76/colin-app.app/lib/python3.11/site-packages/kivy/base.py", line 574, in runTouchApp
+    EventLoop.mainloop()
+  File "/private/var/containers/Bundle/Application/C3E8A298-8273-4B70-BFAD-E1D56837ED76/colin-app.app/lib/python3.11/site-packages/kivy/base.py", line 339, in mainloop
+    self.idle()
+  File "/private/var/containers/Bundle/Application/C3E8A298-8273-4B70-BFAD-E1D56837ED76/colin-app.app/lib/python3.11/site-packages/kivy/base.py", line 379, in idle
+    Clock.tick()
+  File "/private/var/containers/Bundle/Application/C3E8A298-8273-4B70-BFAD-E1D56837ED76/colin-app.app/lib/python3.11/site-packages/kivy/clock.py", line 733, in tick
+    self.post_idle(ts, self.idle())
+  File "/private/var/containers/Bundle/Application/C3E8A298-8273-4B70-BFAD-E1D56837ED76/colin-app.app/lib/python3.11/site-packages/kivy/clock.py", line 776, in post_idle
+    self._process_events()
+  File "kivy/_clock.pyx", line 620, in kivy._clock.CyClockBase._process_events
+  File "kivy/_clock.pyx", line 653, in kivy._clock.CyClockBase._process_events
+  File "kivy/_clock.pyx", line 649, in kivy._clock.CyClockBase._process_events
+  File "kivy/_clock.pyx", line 218, in kivy._clock.ClockEvent.tick
+  File "/Users/runner/work/_temp/kivy-ios/colin-app-ios/YourApp/wuxing/ui.py", line 683, in apply_result
+UnboundLocalError: cannot access local variable 'timezone_name' where it is not associated with a value
+
+============================================================
+============================================================
+App 启动
+Python: 3.11.6 (main, Nov 13 2026, 13:31:14) [Clang 17.0.0 (clang-1700.0.13.5)]
+日志路径: /private/var/mobile/Containers/Data/Application/A136D849-BA01-4F22-9C11-59AC2077D5E9/Documents/wuxing_error.log
+App 运行异常退出：
+Traceback (most recent call last):
+  File "/Users/runner/work/_temp/kivy-ios/colin-app-ios/YourApp/main.py", line 86, in <module>
+  File "/private/var/containers/Bundle/Application/C710E2E8-2786-4F68-AAC1-4B51CE41C3E0/colin-app.app/lib/python3.11/site-packages/kivy/app.py", line 956, in run
+    runTouchApp()
+  File "/private/var/containers/Bundle/Application/C710E2E8-2786-4F68-AAC1-4B51CE41C3E0/colin-app.app/lib/python3.11/site-packages/kivy/base.py", line 574, in runTouchApp
+    EventLoop.mainloop()
+  File "/private/var/containers/Bundle/Application/C710E2E8-2786-4F68-AAC1-4B51CE41C3E0/colin-app.app/lib/python3.11/site-packages/kivy/base.py", line 339, in mainloop
+    self.idle()
+  File "/private/var/containers/Bundle/Application/C710E2E8-2786-4F68-AAC1-4B51CE41C3E0/colin-app.app/lib/python3.11/site-packages/kivy/base.py", line 379, in idle
+    Clock.tick()
+  File "/private/var/containers/Bundle/Application/C710E2E8-2786-4F68-AAC1-4B51CE41C3E0/colin-app.app/lib/python3.11/site-packages/kivy/clock.py", line 733, in tick
+    self.post_idle(ts, self.idle())
+  File "/private/var/containers/Bundle/Application/C710E2E8-2786-4F68-AAC1-4B51CE41C3E0/colin-app.app/lib/python3.11/site-packages/kivy/clock.py", line 776, in post_idle
+    self._process_events()
+  File "kivy/_clock.pyx", line 620, in kivy._clock.CyClockBase._process_events
+  File "kivy/_clock.pyx", line 653, in kivy._clock.CyClockBase._process_events
+  File "kivy/_clock.pyx", line 649, in kivy._clock.CyClockBase._process_events
+  File "kivy/_clock.pyx", line 218, in kivy._clock.ClockEvent.tick
+  File "/Users/runner/work/_temp/kivy-ios/colin-app-ios/YourApp/wuxing/ui.py", line 683, in apply_result
+UnboundLocalError: cannot access local variable 'timezone_name' where it is not associated with a value
+
+App 退出
+============================================================
+未捕获异常：
+Traceback (most recent call last):
+  File "/Users/runner/work/_temp/kivy-ios/colin-app-ios/YourApp/main.py", line 86, in <module>
+  File "/private/var/containers/Bundle/Application/C710E2E8-2786-4F68-AAC1-4B51CE41C3E0/colin-app.app/lib/python3.11/site-packages/kivy/app.py", line 956, in run
+    runTouchApp()
+  File "/private/var/containers/Bundle/Application/C710E2E8-2786-4F68-AAC1-4B51CE41C3E0/colin-app.app/lib/python3.11/site-packages/kivy/base.py", line 574, in runTouchApp
+    EventLoop.mainloop()
+  File "/private/var/containers/Bundle/Application/C710E2E8-2786-4F68-AAC1-4B51CE41C3E0/colin-app.app/lib/python3.11/site-packages/kivy/base.py", line 339, in mainloop
+    self.idle()
+  File "/private/var/containers/Bundle/Application/C710E2E8-2786-4F68-AAC1-4B51CE41C3E0/colin-app.app/lib/python3.11/site-packages/kivy/base.py", line 379, in idle
+    Clock.tick()
+  File "/private/var/containers/Bundle/Application/C710E2E8-2786-4F68-AAC1-4B51CE41C3E0/colin-app.app/lib/python3.11/site-packages/kivy/clock.py", line 733, in tick
+    self.post_idle(ts, self.idle())
+  File "/private/var/containers/Bundle/Application/C710E2E8-2786-4F68-AAC1-4B51CE41C3E0/colin-app.app/lib/python3.11/site-packages/kivy/clock.py", line 776, in post_idle
+    self._process_events()
+  File "kivy/_clock.pyx", line 620, in kivy._clock.CyClockBase._process_events
+  File "kivy/_clock.pyx", line 653, in kivy._clock.CyClockBase._process_events
+  File "kivy/_clock.pyx", line 649, in kivy._clock.CyClockBase._process_events
+  File "kivy/_clock.pyx", line 218, in kivy._clock.ClockEvent.tick
+  File "/Users/runner/work/_temp/kivy-ios/colin-app-ios/YourApp/wuxing/ui.py", line 683, in apply_result
+UnboundLocalError: cannot access local variable 'timezone_name' where it is not associated with a value
+
+============================================================
+============================================================
+App 启动
+Python: 3.11.6 (main, Nov 13 2026, 13:31:14) [Clang 17.0.0 (clang-1700.0.13.5)]
+日志路径: /private/var/mobile/Containers/Data/Application/A136D849-BA01-4F22-9C11-59AC2077D5E9/Documents/wuxing_error.log
+App 运行异常退出：
+Traceback (most recent call last):
+  File "/Users/runner/work/_temp/kivy-ios/colin-app-ios/YourApp/main.py", line 86, in <module>
+  File "/private/var/containers/Bundle/Application/C710E2E8-2786-4F68-AAC1-4B51CE41C3E0/colin-app.app/lib/python3.11/site-packages/kivy/app.py", line 956, in run
+    runTouchApp()
+  File "/private/var/containers/Bundle/Application/C710E2E8-2786-4F68-AAC1-4B51CE41C3E0/colin-app.app/lib/python3.11/site-packages/kivy/base.py", line 574, in runTouchApp
+    EventLoop.mainloop()
+  File "/private/var/containers/Bundle/Application/C710E2E8-2786-4F68-AAC1-4B51CE41C3E0/colin-app.app/lib/python3.11/site-packages/kivy/base.py", line 339, in mainloop
+    self.idle()
+  File "/private/var/containers/Bundle/Application/C710E2E8-2786-4F68-AAC1-4B51CE41C3E0/colin-app.app/lib/python3.11/site-packages/kivy/base.py", line 379, in idle
+    Clock.tick()
+  File "/private/var/containers/Bundle/Application/C710E2E8-2786-4F68-AAC1-4B51CE41C3E0/colin-app.app/lib/python3.11/site-packages/kivy/clock.py", line 733, in tick
+    self.post_idle(ts, self.idle())
+  File "/private/var/containers/Bundle/Application/C710E2E8-2786-4F68-AAC1-4B51CE41C3E0/colin-app.app/lib/python3.11/site-packages/kivy/clock.py", line 776, in post_idle
+    self._process_events()
+  File "kivy/_clock.pyx", line 620, in kivy._clock.CyClockBase._process_events
+  File "kivy/_clock.pyx", line 653, in kivy._clock.CyClockBase._process_events
+  File "kivy/_clock.pyx", line 649, in kivy._clock.CyClockBase._process_events
+  File "kivy/_clock.pyx", line 218, in kivy._clock.ClockEvent.tick
+  File "/Users/runner/work/_temp/kivy-ios/colin-app-ios/YourApp/wuxing/ui.py", line 683, in apply_result
+UnboundLocalError: cannot access local variable 'timezone_name' where it is not associated with a value
+
+App 退出
+============================================================
+未捕获异常：
+Traceback (most recent call last):
+  File "/Users/runner/work/_temp/kivy-ios/colin-app-ios/YourApp/main.py", line 86, in <module>
+  File "/private/var/containers/Bundle/Application/C710E2E8-2786-4F68-AAC1-4B51CE41C3E0/colin-app.app/lib/python3.11/site-packages/kivy/app.py", line 956, in run
+    runTouchApp()
+  File "/private/var/containers/Bundle/Application/C710E2E8-2786-4F68-AAC1-4B51CE41C3E0/colin-app.app/lib/python3.11/site-packages/kivy/base.py", line 574, in runTouchApp
+    EventLoop.mainloop()
+  File "/private/var/containers/Bundle/Application/C710E2E8-2786-4F68-AAC1-4B51CE41C3E0/colin-app.app/lib/python3.11/site-packages/kivy/base.py", line 339, in mainloop
+    self.idle()
+  File "/private/var/containers/Bundle/Application/C710E2E8-2786-4F68-AAC1-4B51CE41C3E0/colin-app.app/lib/python3.11/site-packages/kivy/base.py", line 379, in idle
+    Clock.tick()
+  File "/private/var/containers/Bundle/Application/C710E2E8-2786-4F68-AAC1-4B51CE41C3E0/colin-app.app/lib/python3.11/site-packages/kivy/clock.py", line 733, in tick
+    self.post_idle(ts, self.idle())
+  File "/private/var/containers/Bundle/Application/C710E2E8-2786-4F68-AAC1-4B51CE41C3E0/colin-app.app/lib/python3.11/site-packages/kivy/clock.py", line 776, in post_idle
+    self._process_events()
+  File "kivy/_clock.pyx", line 620, in kivy._clock.CyClockBase._process_events
+  File "kivy/_clock.pyx", line 653, in kivy._clock.CyClockBase._process_events
+  File "kivy/_clock.pyx", line 649, in kivy._clock.CyClockBase._process_events
+  File "kivy/_clock.pyx", line 218, in kivy._clock.ClockEvent.tick
+  File "/Users/runner/work/_temp/kivy-ios/colin-app-ios/YourApp/wuxing/ui.py", line 683, in apply_result
+UnboundLocalError: cannot access local variable 'timezone_name' where it is not associated with a value
+
+============================================================
